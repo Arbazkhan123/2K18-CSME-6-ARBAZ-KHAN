@@ -65,3 +65,66 @@ seeking good recommendation regarding chatbot development
 platforms and best practices. We believe that our results are useful to
 the chatbot community as they guide future research to focus on the
 more pressing and difficult aspects of chatbot development. 
+# Second page
+https://2020.msrconf.org/details/msr-2020-papers/5/SoftMon-A-Tool-to-Compare-Similar-Open-source-Software-from-a-Performance-Perspectiv
+<h2> TITLE: SOFTMON: A TOOL TO COMPARE SIMILAR OPEN-SOURCE SOFTWARE FROM A PERFORMANCE PERSPECTIVE</h2>
+<h2> Authors: Shubhankar Suman Singh, Smruti Ranjan Sarangi</h2>
+<h2> PUBLISH: Tue 30 Jun 2020 11:36 - 11:48 at MSR:Zoom - Quality Chair(s): Jens Krinke</h2>
+<h3> Introduction:</h3>
+In this research he work on compare
+large code-bases and automatically finds the
+reasons and use the insights to improve the
+performance of a target applications The classical
+problem in computer science to detecting two pieces
+of code are same or not the are three broadclasses
+to detect the code similarity these are (same,
+structural, functional ) he further classified
+parposal two broadclasses static and dynamic the
+static method only use source code and binary
+stability but the dynamic parameter use to observe 
+the behavior such as memory state then he further
+work on level based categories these are (code
+version compile optimizers, cross architecture )
+then add a new categories in this taxonomy
+different implementation( A softmon tool) where he
+compare the two codes that represent highly level
+algorithms yet are coded differently 
+<h3> Methodology:</h3>
+ he discuss the different class to solve
+the problem of clone detection the classes are (
+Graph isomorphism, frequent sequence mining ,
+longest common subsequence static and dynamic
+features ,comment sequence and contextual
+information) the softmon tool applies in this
+category A SOTFMON Tool can comprises 6
+components:
+1: A Trace collector: to generate the sequence of
+function cells invoked the execution a program and
+construct a function call tree from trace
+2: A classification and clustering: to classify the call
+trees into high level tasks and then the cluster the
+different call trees into fewer groups:
+3: A Graph Engine: To compress the and filter the
+function call trees. 
+4: A Annotation: To annotated the call trees with
+there relevant comments.
+5: A Map Engine: To find the mappings between the
+nodes across the call trees of the different
+applications
+6: A Graph visualization engine: To render the
+mapped trees to simply the human analysis . 
+<h3> Results:</h3>
+In this paper he solve a very ambitious
+problem to compare the largest open source
+programs and explan the reasons for their
+performance difference and he were able to find the
+diverse set of reason’s that explan the most of
+difrences and able to validate the them against
+various source and The Softmon tool can take the
+200s to complete the analysis the lagrgest code
+bases . 
+<h3> Motivation:</h3>
+ Motivation of softmon tool is compared a diversed set of
+application, found the 25 reason for the performance difrences, and
+validate the reason from developers notes and documentation , manual
+efforts reduce from 1 week to 30 minutes to compare software.
