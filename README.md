@@ -129,3 +129,71 @@ bases .
 application, found the 25 reason for the performance difrences, and
 validate the reason from developers notes and documentation , manual
 efforts reduce from 1 week to 30 minutes to compare software.
+
+# Third Page
+https://2020.icse-conferences.org/details/icse-2020-poster/6/Bugine-a-bug-report-recommendation-system-for-Android-apps
+
+<h2> TITLE: Bugine: a bug report recommendation system for Android apps</h2>
+<h2> AUTHOURS: Ziqiang Li , Shin Hwei Tan.. </h2>
+<h2> PUBLISH: Tue 7 Jul 2020 09:10 - 10:00 at Poster Special Room - I301-Posters</h2>
+
+<h3> INTRODUCTION:</h3>
+ Many automated test generation
+tools were proposed for finding bugs in Android
+apps. However, a recent study revealed that
+developers prefer reading automated test
+generation cased written in natural language. We
+present Bugine, a new bug recommendation
+system that automatically selects relevant bug
+reports from other applications that have similar
+bugs. 
+<h3> RESEARCH:</h3>
+ We evaluate Bugine on five opensource Android apps. Table 2 lists information 
+about the evaluated apps. We select these apps
+because they are diverse in app categories, sizes,
+popularity, and the number of issues. 
+<h3> METHDOLOGY:</h3>
+Building a database of GitHub
+issues. Our crawler selects Android apps based on:
+(1) the users’ rating and downloads in the App
+store, (2) the number of discussion and comments
+by developers, (3) the number of the star and issue
+of GitHub repository, and (4) the category of
+GitHub repository. Data Pre-Processing. Extracting
+app description files. Similarity Measures. Ranking
+relevant GitHub Issues. 
+<h3> SUMMARY:</h3>
+ Bug finding is a creative and inspiring
+activity. Many automated test generation [8] and
+repair techniques have been proposed to ensure
+the reliability of Android apps [1, 3, 6]. However,
+reading and reproducing the automatically
+generated test cases could be time-consuming. A
+study showed that developers prefer reading
+automatically generated test cases written in
+natural language [4]. This study also revealed that
+developers prefer manual testing compared to 
+automated testing due to the learning curve of
+automated tools or lack of specific knowledge.
+Moreover, automated testing techniques for
+Android apps mostly focus on finding crashes [5],
+but neglect other non-crash related bugs (e.g., UI
+bugs). Meanwhile, many manually crafted bug
+reports (in natural language) are available in
+open-source repositories like GitHub. 
+<h3> MOTIVATION:</h3>
+We need to make more tools OR APP
+for people like automate bug fixing,which is help
+the people to finding a bug in there application
+and easly solve there bug in application….
+<h3> RESULT:</h3>
+ We introduce a new approach that
+recommends relevant GitHub issues for an app
+under test. Given an app under test, Bugine
+searches for relevant GitHub issues based on the
+similarities of UI components shared with other
+apps in our database and further ranks them
+based on their quality. Our evaluation shows that
+it helps to discover 34 new bugs in the five
+evaluated apps.
+ 
